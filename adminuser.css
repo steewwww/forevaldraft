@@ -1,0 +1,90 @@
+   
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+        
+      }
+  
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  
+      h1, h2 ,h3{
+        margin: 0;
+      }
+
+      p{
+        margin-bottom: 0;
+
+      }
+  
+      #invoice-details {
+        margin-bottom: 20px;
+      }
+  
+      #invoice-items {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+  
+      #invoice-items th, #invoice-items td {
+        border: 1px solid #000000;
+        padding: 8px;
+        text-align: left;
+      }
+  
+      #invoice-total {
+        border: 1px solid #000000;
+        padding: 8px;
+        float: right;
+      }
+
+      img {
+
+        position: absolute; 
+            top: 5px; 
+            left: 65px; 
+            
+       
+       
+      }
+    
+    
+
+      .center-container {
+        margin: 10px auto; 
+        max-width: 900px;
+    }
+
+
+    .print-btn {
+        display: block; 
+    }
+
+    
+    @media print {
+        .print-btn {
+            display: none;
+        }
+        
+        .card{
+          display: none;
+        }
+
+    }
+    .display{
+      text-align: center;
+    }
+    .too {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+     }
+     .toott {
+      border: none;
+      background-color: #0ebb25;
+      cursor: pointer;
+     }

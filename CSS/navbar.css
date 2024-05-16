@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #076802;
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar-left {
+  float: left;
+  color: white;
+  padding: 15px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-item {
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  background-color: #ffffff;
+}
+
+
+
+

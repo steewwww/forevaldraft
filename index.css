@@ -1,0 +1,31 @@
+table {
+                
+  border:none; 
+  color:black; 
+  
+  width:5px;
+  cursor: pointer;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.product-description {
+  /* Add your desired styles here */
+  color: #333; /* Example color */
+  font-size: 14px; /* Example font size */
+  /* Add more styles as needed */
+  
+}
+.too   {
+  border: none;
+  font-size: 1.5em;
+  background-color: transparent;
+  cursor: pointer;
+ }
+ td, th {
+  text-align: center;
+  vertical-align: middle;
+}
